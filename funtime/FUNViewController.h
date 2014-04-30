@@ -10,4 +10,8 @@
 
 @interface FUNViewController : UIViewController
 
+@property (nonatomic, strong) UILabel *titleText;
+@property (nonatomic, strong) UILabel *instructionText;
+@property (nonatomic, strong) UIButton *checkButton;
+
 @end

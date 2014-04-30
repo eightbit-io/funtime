@@ -22,6 +22,7 @@
 		371E9E49191078BE00A4638B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371E9E28191078BE00A4638B /* UIKit.framework */; };
 		371E9E51191078BE00A4638B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 371E9E4F191078BE00A4638B /* InfoPlist.strings */; };
 		371E9E53191078BE00A4638B /* funtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 371E9E52191078BE00A4638B /* funtimeTests.m */; };
+		371E9E5E1910A9DE00A4638B /* FUNJailbreakDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 371E9E5D1910A9DE00A4638B /* FUNJailbreakDetector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		371E9E4E191078BE00A4638B /* funtimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "funtimeTests-Info.plist"; sourceTree = "<group>"; };
 		371E9E50191078BE00A4638B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		371E9E52191078BE00A4638B /* funtimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = funtimeTests.m; sourceTree = "<group>"; };
+		371E9E5C1910A9DE00A4638B /* FUNJailbreakDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUNJailbreakDetector.h; sourceTree = "<group>"; };
+		371E9E5D1910A9DE00A4638B /* FUNJailbreakDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUNJailbreakDetector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				371E9E39191078BE00A4638B /* Main_iPad.storyboard */,
 				371E9E3C191078BE00A4638B /* FUNViewController.h */,
 				371E9E3D191078BE00A4638B /* FUNViewController.m */,
+				371E9E5C1910A9DE00A4638B /* FUNJailbreakDetector.h */,
+				371E9E5D1910A9DE00A4638B /* FUNJailbreakDetector.m */,
 				371E9E3F191078BE00A4638B /* Images.xcassets */,
 				371E9E2B191078BE00A4638B /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				371E9E3E191078BE00A4638B /* FUNViewController.m in Sources */,
+				371E9E5E1910A9DE00A4638B /* FUNJailbreakDetector.m in Sources */,
 				371E9E35191078BE00A4638B /* FUNAppDelegate.m in Sources */,
 				371E9E31191078BE00A4638B /* main.m in Sources */,
 			);
@@ -394,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "funtime/funtime-Prefix.pch";
 				INFOPLIST_FILE = "funtime/funtime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "funtime/funtime-Prefix.pch";
 				INFOPLIST_FILE = "funtime/funtime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -471,6 +479,7 @@
 				371E9E58191078BE00A4638B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371E9E59191078BE00A4638B /* Build configuration list for PBXNativeTarget "funtimeTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +488,7 @@
 				371E9E5B191078BE00A4638B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
